@@ -1,5 +1,6 @@
 .boxes{
-    padding-top: 12px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .box-mini{
     border-radius: 20px;
@@ -17,5 +18,35 @@
     border-radius: 20px;
 }
 .box-mini img{
+    width: 100%;
+}
+
+.no-limit{
+    padding-top: 48px ;
+}
+
+.accent{
+    color: #0072ce;
+}
+
+.no-limit p{
+    color: gray;
+    margin-top: 16px;
+}
+
+.description{
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.btn{
+    border-radius: 50px;
+}
+
+.duo{
+    padding-top: 54px;
+}
+
+.duo img{
     width: 100%;
 }
