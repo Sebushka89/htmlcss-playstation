@@ -1,3 +1,65 @@
+.jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+.buy{
+    margin-top: 350px;
+}
+.jumbotron img{
+    width: 100%;
+}
+
+.jumbotron h2{
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.jumbotron p{
+    color: white;
+    padding-top: 16px;
+}
+
+.jumbotron .btn{
+    background-color: tomato;
+    border-radius: 50px;
+}
+
+.jumbotron2{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+.jumbotron2 img{
+    width:70%;
+}
+
+.jumbotron2 h2{
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 40px;
+}
+
+.jumbotron2 p{
+    color: white;
+    padding-top: 16px;
+}
+
+.jumbotron2 .btn{
+    background-color: tomato;
+    border-radius: 50px;
+}
+
+.buy2{
+    margin-top: 96px;
+}
+
 .boxes{
     padding-top: 40px;
     padding-bottom: 40px;
