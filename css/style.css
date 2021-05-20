@@ -87,3 +87,17 @@
     margin-bottom: 9px;
     color: white;
 }
+
+.trio{
+    padding-top: 54px;
+    padding-bottom: 54px;
+}
+
+.trio img{
+    width: 100%;
+}
+.trio p{
+    margin-top: 16px;
+    margin-bottom: 32px;
+    font-size: 20px;
+}
