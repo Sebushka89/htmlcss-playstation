@@ -66,3 +66,24 @@
     margin-top: 16px;
     color: gray;
 }
+
+.catalogo{
+    background-color: #1f1f1f;
+    padding-bottom: 54px;
+    padding-top: 36px;
+}
+
+.catalogo img{
+    width: 100%;
+    margin-top: 36px;
+    border-radius: 10px;
+}
+
+.catalogo p {
+    color: white;
+    margin-top: 9px;
+}
+.catalogo h3, .catalogo h5{
+    margin-bottom: 9px;
+    color: white;
+}
