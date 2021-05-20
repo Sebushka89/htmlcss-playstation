@@ -101,3 +101,20 @@
     margin-bottom: 32px;
     font-size: 20px;
 }
+
+.duo-bis{
+    background-color: #bebcbb;
+}
+
+.duo-bis img{
+    width: 100%;
+}
+
+.btn-outline-primary {
+    background-color: #eee;
+    font-size: 18px;
+}
+.plus{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
