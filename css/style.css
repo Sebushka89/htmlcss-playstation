@@ -1,0 +1,21 @@
+.boxes{
+    padding-top: 12px;
+}
+.box-mini{
+    border-radius: 20px;
+    border: 2px #fff solid;
+    margin-top: 12px;
+}
+
+.box-mini:hover{
+    border: 2px blue solid;
+}
+
+.box-mini-inner{
+    border: 2px #fff solid;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.box-mini img{
+    width: 100%;
+}
