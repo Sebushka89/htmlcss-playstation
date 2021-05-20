@@ -1,3 +1,42 @@
+.sticky-top svg {
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-dark .navbar-toggler{
+    border-color: lightgray;
+}
+
+.navbar-brandd svg{
+    width:100%;
+    fill: blue;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show > .nav-link {
+    color: black;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-weight: bold;
+}
+
+.fas{
+    margin-left: 10px;
+    font-size: 10px;
+    color: lightgray;
+}
+
+.d-flex .btn{
+    border-radius: 50px;
+    margin-right: 16px;
+    color: white;
+}
+
+.d-flex .fa{
+    font-size: 18px;
+    margin-right: 16px;
+}
+
 .jumbotron{
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
@@ -36,7 +75,7 @@
 }
 
 .jumbotron2 img{
-    width:100%;
+    width:70%;
 }
 
 .jumbotron2 h2{
