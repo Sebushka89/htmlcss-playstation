@@ -23,6 +23,7 @@
     overflow: hidden;
     border-radius: 20px;
 }
+
 .box-mini img{
     width: 100%;
 }
@@ -114,7 +115,30 @@
     background-color: #eee;
     font-size: 18px;
 }
-.plus{
-    margin-top: 20px;
-    margin-bottom: 20px;
+
+@media only screen and (max-width: 767px){
+    .plus{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+  }
+
+.trio-bis{
+    padding-top: 24px;
+    padding-bottom: 54px;
+}
+
+.trio-bis img{
+    width: 100%;
+    margin-top: 32px;
+}
+
+.social{
+    padding-top: 24px;
+    padding-bottom: 54px;
+}
+
+.social img{
+    width: 100%;
+    margin-top: 32px;
 }
