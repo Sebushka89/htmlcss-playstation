@@ -283,8 +283,8 @@ a:hover .fas{
 
 footer{
     background-color: #00439c;
-    height: 700px;
     padding-top: 72px;
+    padding-bottom: 72px;
 }
 
 footer .fas{
@@ -296,13 +296,20 @@ footer .fas{
 
 .country{
     margin-top: 16px;
+    margin-bottom: 16px;
     color: #fff;
 }
 
 ul{
-    display: inline-block;
     color: #fff;
     list-style: none;
-    font-size: 14px;
-    padding-left: 16px;
+}
+
+footer li{
+    margin-bottom: 9px;
+}
+
+footer p{
+    color: white;
+    padding-top: 16px;
 }
