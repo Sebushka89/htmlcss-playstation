@@ -16,7 +16,6 @@
 .navbar-light .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show > .nav-link {
     color: black;
     padding-right: 16px;
-    padding-left: 16px;
     font-weight: bold;
 }
 
@@ -24,6 +23,10 @@
     margin-left: 10px;
     font-size: 10px;
     color: lightgray;
+}
+
+a:hover .fas{
+    color: blue;
 }
 
 .d-flex .btn{
@@ -107,6 +110,7 @@
     border-radius: 20px;
     border: 2px #fff solid;
     margin-top: 12px;
+    cursor: pointer;
 }
 
 .box-mini:hover{
@@ -153,14 +157,35 @@
     width: 100%;
 }
 
+.item{
+    border-bottom: #fff 2px solid;
+}
+
+.accessori{
+    padding-bottom: 54px;
+}
+
 .accessori img{
     width: 100%;
     padding-top: 18px;
     padding-right: 18px;
+    opacity: 0.7;
 }
+
 .accessori p{
     margin-top: 16px;
     color: gray;
+    height: 48px;
+}
+
+.item:hover img,.item:hover p{
+    opacity: 1;
+    color: black;
+}
+
+.item:hover{
+    border-bottom: blue 2px solid;
+    cursor: pointer;
 }
 
 .catalogo{
