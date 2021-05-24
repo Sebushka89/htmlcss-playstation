@@ -15,7 +15,6 @@
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show > .nav-link {
     color: black;
-    padding-right: 16px;
     font-weight: bold;
 }
 
