@@ -43,6 +43,7 @@ a{
     border-radius: 50px;
     margin-right: 16px;
     color: white;
+    border: 3px solid white;
 }
 
 .d-flex .fa{
@@ -79,7 +80,7 @@ a{
 .jumbotron .btn{
     background-color: tomato;
     border-radius: 50px;
-    border: 2px solid transparent;
+    border: 3px solid black;
 }
 
 /*sezione mini-box*/
@@ -143,6 +144,7 @@ a{
 
 .duo .btn{
     border-radius: 50px;
+    border: 3px solid white;
 }
 
 .duo img{
@@ -207,6 +209,7 @@ a{
 .jumbotron2 .btn{
     background-color: tomato;
     border-radius: 50px;
+    border: 3px solid rgb(20, 20, 20);
 }
 
 .buy2{
@@ -244,6 +247,7 @@ a{
 .trio .btn{
     border-radius: 50px;
     margin-bottom: 6px;
+    border: 3px solid white;
 }
 
 .trio img{
@@ -262,7 +266,7 @@ a{
     font-weight: bold;
     color: royalblue;
     background-color: lightgray;
-    border: none;
+    border: 3px solid #bebcbb;
 }
 
 .duo-bis{
@@ -316,7 +320,7 @@ a{
     color: black;
     background-color: white;
     font-weight: bold;
-    border: none;
+    border: 3px solid rgb(0, 0, 36);
 }
 
 /*sezione social*/
