@@ -1,3 +1,4 @@
+/*navbar section*/
 .navbar-dark svg {
     height: 50px;
     padding-top: 10px;
@@ -8,7 +9,7 @@
     border-color: lightgray;
 }
 
-.navbar-brandd svg{
+.navbar-brand svg{
     width:100%;
     fill: blue;
 }
@@ -19,6 +20,11 @@
     font-weight: bold;
 }
 
+.navbar-light .navbar-nav .nav-link.active:hover{
+    color: royalblue;
+}
+
+
 .fas{
     margin-left: 10px;
     font-size: 10px;
@@ -26,7 +32,7 @@
 }
 
 a:hover .fas{
-    color: blue;
+    color: royalblue;
 }
 
 a{
@@ -44,7 +50,7 @@ a{
     margin-right: 16px;
     color: black;
 }
-
+/*jumbotron Returnal*/
 .jumbotron{
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
@@ -73,8 +79,108 @@ a{
 .jumbotron .btn{
     background-color: tomato;
     border-radius: 50px;
+    border: 2px solid transparent;
 }
 
+/*sezione mini-box*/
+.boxes{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.box-mini{
+    border-radius: 20px;
+    border: 2px #fff solid;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.box-mini:hover{
+    border: 2px blue solid;
+    transition: 1s;
+    margin-top: 0px;
+    box-shadow: 0px 10px 5px lightgray;
+    opacity: none;
+}
+
+.box-mini img:hover{
+    opacity: 1;
+}
+
+.box-mini-inner{
+    border: 2px #fff solid;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.box-mini img{
+    width: 100%;
+    opacity: 0.7;
+}
+
+/*sezione ps5 con accessori*/
+.no-limit{
+    padding-top: 48px;
+}
+
+.accent{
+    color: #0072ce;
+}
+
+.no-limit p{
+    color: gray;
+    margin-top: 16px;
+}
+
+.description{
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.duo{
+    padding-top: 54px;
+}
+
+.duo .btn{
+    border-radius: 50px;
+}
+
+.duo img{
+    width: 100%;
+}
+
+.item{
+    height: 275px;
+    border-bottom: #fff 2px solid;
+}
+
+.accessori{
+    padding-bottom: 54px;
+}
+
+.accessori img{
+    width: 100%;
+    padding-top: 18px;
+    padding-right: 18px;
+    opacity: 0.7;
+}
+
+.accessori p{
+    margin-top: 16px;
+    color: gray;
+}
+
+.item:hover img,.item:hover p{
+    opacity: 1;
+    color: black;
+}
+
+.item:hover{
+    cursor: pointer;
+    border-bottom: blue 2px solid;
+}
+
+/*sezione jumbotron it takes two*/
 .jumbotron2{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
@@ -107,93 +213,7 @@ a{
     margin-top: 96px;
 }
 
-.boxes{
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-.box-mini{
-    border-radius: 20px;
-    border: 2px #fff solid;
-    margin-top: 12px;
-    cursor: pointer;
-}
-
-.box-mini:hover{
-    border: 2px blue solid;
-}
-
-.box-mini-inner{
-    border: 2px #fff solid;
-    overflow: hidden;
-    border-radius: 20px;
-}
-
-.box-mini img{
-    width: 100%;
-}
-
-.no-limit{
-    padding-top: 48px ;
-}
-
-.accent{
-    color: #0072ce;
-}
-
-.no-limit p{
-    color: gray;
-    margin-top: 16px;
-}
-
-.description{
-    margin-top: 16px;
-    margin-bottom: 32px;
-}
-
-
-.duo{
-    padding-top: 54px;
-}
-
-.duo .btn{
-    border-radius: 50px;
-}
-
-
-.duo img{
-    width: 100%;
-}
-
-.item{
-    border-bottom: #fff 2px solid;
-}
-
-.accessori{
-    padding-bottom: 54px;
-}
-
-.accessori img{
-    width: 100%;
-    padding-top: 18px;
-    padding-right: 18px;
-    opacity: 0.7;
-}
-
-.accessori p{
-    margin-top: 16px;
-    color: gray;
-}
-
-.item:hover img,.item:hover p{
-    opacity: 1;
-    color: black;
-}
-
-.item:hover{
-    cursor: pointer;
-    border-bottom: blue 2px solid;
-}
-
+/*catalogo 12 game*/
 .catalogo{
     background-color: #1f1f1f;
     padding-bottom: 54px;
@@ -215,6 +235,7 @@ a{
     color: white;
 }
 
+/*sezione ps4*/
 .trio{
     padding-top: 54px;
     padding-bottom: 54px;
@@ -222,6 +243,7 @@ a{
 
 .trio .btn{
     border-radius: 50px;
+    margin-bottom: 6px;
 }
 
 .trio img{
@@ -234,12 +256,13 @@ a{
     height: 120px;
 }
 
-.btn-outline-primary{
-    border-color: #eee;
-}
-
+/*sezione Plus*/
 .duo-bis .btn{
     border-radius: 50px;
+    font-weight: bold;
+    color: royalblue;
+    background-color: lightgray;
+    border: none;
 }
 
 .duo-bis{
@@ -248,11 +271,6 @@ a{
 
 .duo-bis img{
     width: 100%;
-}
-
-.btn-outline-primary {
-    background-color: #eee;
-    font-size: 18px;
 }
 
 @media only screen and (max-width: 767px){
@@ -264,8 +282,12 @@ a{
         margin-bottom: 13px;
         height: 100px;
     }
+    .item{ 
+        height: 250px
+    }    
   }
 
+/*sezione Deal*/
 .trio-bis{
     padding-top: 24px;
     padding-bottom: 54px;
@@ -276,6 +298,7 @@ a{
     margin-top: 32px;
 }
 
+/*sezione Now*/
 .now img{
     width: 100%;
 }
@@ -291,8 +314,12 @@ a{
 .now .btn{
     border-radius: 50px;
     color: black;
+    background-color: white;
+    font-weight: bold;
+    border: none;
 }
 
+/*sezione social*/
 .social{
     padding-top: 24px;
     padding-bottom: 54px;
@@ -303,6 +330,7 @@ a{
     margin-top: 32px;
 }
 
+/*footer*/
 footer{
     background-color: #00439c;
     padding-top: 72px;
