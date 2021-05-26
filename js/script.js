@@ -1,2 +1,3 @@
-document.getElementById('myID').innerHTML = "Altre funzionalità della console PS5";
-console.log("X");
+document.getElementById('myID').innerHTML = ('Velocità incredibile');
+console.log("Hello World");
+alert('TOP SECRET')
